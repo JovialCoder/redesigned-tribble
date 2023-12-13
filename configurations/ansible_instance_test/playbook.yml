@@ -1,0 +1,7 @@
+---
+- name: Playbook that does nothing
+  hosts: all
+  tasks:
+    - name: Task that does nothing
+      debug:
+        msg: "This task intentionally does nothing."
